@@ -2,7 +2,7 @@ import type { ExperienceItem } from '@/types'
 
 export const experience: ExperienceItem[] = [
   {
-    id: 'residuum', group: 'experience', period: '2026', title: 'Front End Manager', organization: 'Residuum',
+    id: 'residuum', group: 'experience', period: '2026', title: 'Front-end Lead', organization: 'Residuum',
     description: 'Liderança do time de front-end The Reds em um app de gamificação para coleta de resíduos.',
     highlights: [
       'Front-end em React 18 e Vite, com Tailwind e TanStack Query.',

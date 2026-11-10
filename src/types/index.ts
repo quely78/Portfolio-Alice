@@ -1,10 +1,12 @@
-export type ProjectCategory = 'Front-end' | 'Produto' | 'Design'
+import type { LucideIcon } from 'lucide-react'
+
+export type ProjectCategory = 'Front-end' | 'Full-stack' | 'Produto' | 'Design'
 
 export interface Project {
   id: string
   name: string
   categories: ProjectCategory[]
-  status: 'Em andamento' | 'Concluída' | 'Em análise'
+  status: 'Em andamento' | 'Concluída' | 'Em planejamento'
   role: string
   summary: string
   details: string[]
@@ -24,7 +26,20 @@ export interface ExperienceItem {
   highlights?: string[]
 }
 
+export interface TechItem {
+  name: string
+  /** URL da logo oficial da tecnologia */
+  logo?: string
+  /** Ícone usado quando não existe logo (práticas, conceitos) */
+  icon?: LucideIcon
+  /** Logo preta que precisa clarear no tema escuro */
+  invertDark?: boolean
+  /** Logo escura que ganha contorno claro no tema escuro */
+  outlineDark?: boolean
+}
+
 export interface TechGroup {
   title: string
-  items: string[]
+  icon: LucideIcon
+  items: TechItem[]
 }
