@@ -13,8 +13,8 @@ export const profile = {
   github: 'https://github.com/quely78',
   resume: '/curriculo-alice-sombra.pdf',
   about: [
-    'Sou graduanda em Ciência da Computação na UNINORTE (8º período) e atuo nas frentes de front-end, produto e design. Participo de todo o ciclo de desenvolvimento: levantamento de requisitos, prototipação e implementação de interfaces em React.',
-    'Tenho experiência em projetos de impacto social e ambiental, como uma aplicação de gamificação para coleta de resíduos (Residuum), um aplicativo de segurança pessoal para mulheres (Rede Rosa) e um sistema de registro de plantio para agricultoras na Amazônia (Semear). Nesses projetos, liderei equipes de front-end e atuei como Product Owner.',
-    'Trabalho de forma colaborativa, organizando as entregas em sprints independentes para que toda a equipe avance sem bloqueios.',
+    'Sou graduanda em Ciência da Computação (8º período, UNINORTE) e desenvolvedora com foco em front-end, produto e design. Participo de todo o ciclo de uma solução, do levantamento de requisitos à implementação de interfaces com React, JavaScript e TypeScript.',
+    'Liderei equipes de front-end e atuei como Product Owner em projetos como o Residuum, de gamificação para coleta de resíduos, e o SemeAR, de registro de plantio para agricultoras na Amazônia. Organizo o trabalho em sprints independentes para que o time avance sem bloqueios.',
+    'Estou aberta a novos desafios em desenvolvimento e produto.',
   ],
 } as const

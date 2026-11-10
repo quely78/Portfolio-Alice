@@ -4,7 +4,7 @@ import type { ProjectCategory } from '@/types'
 import { SectionTitle } from '@/components/ui/SectionTitle'
 import { Button } from '@/components/ui/Button'
 
-const filters: ('Todos' | ProjectCategory)[] = ['Todos', 'Front-end', 'Produto', 'Design']
+const filters: ('Todos' | ProjectCategory)[] = ['Todos', 'Front-end', 'Full-stack', 'Produto', 'Design']
 
 export function Projects() {
   const [filter, setFilter] = useState<(typeof filters)[number]>('Todos')
