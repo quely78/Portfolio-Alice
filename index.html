@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alice Sombra · Desenvolvedora Front-end</title>
+    <meta name="description" content="Portfólio de Alice Sombra, desenvolvedora front-end em Manaus. React, produto e design." />
+    <meta property="og:title" content="Alice Sombra · Desenvolvedora Front-end" />
+    <meta property="og:description" content="Interfaces em React e produtos do requisito à entrega." />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet" />
+    <script>
+      // Aplica o tema antes de pintar a página (evita "piscar")
+      try {
+        const t = localStorage.getItem('theme')
+        const dark = t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches
+        document.documentElement.classList.toggle('dark', dark)
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

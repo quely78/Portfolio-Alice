@@ -1,0 +1,20 @@
+export const profile = {
+  name: 'Alice Sombra',
+  fullName: 'Alice Quely Teixeira Sombra',
+  role: 'Desenvolvedora Front-end',
+  availability: 'Aberta a vagas júnior e projetos freelance',
+  tagline: 'Desenvolvo interfaces em React e lidero produtos do requisito à entrega.',
+  location: 'Técnica de Informática e graduanda em Ciência da Computação · Manaus, AM',
+  email: 'aliceqteixeira@gmail.com',
+  phone: '(92) 99138-6264',
+  phoneHref: 'tel:+5592991386264',
+  city: 'Manaus, Amazonas',
+  linkedin: 'https://www.linkedin.com/in/alice-sombra-764855243',
+  github: 'https://github.com/quely78',
+  resume: '/curriculo-alice-sombra.pdf',
+  about: [
+    'Sou graduanda em Ciência da Computação na UNINORTE (8º período) e atuo nas frentes de front-end, produto e design. Participo de todo o ciclo de desenvolvimento: levantamento de requisitos, prototipação e implementação de interfaces em React.',
+    'Tenho experiência em projetos de impacto social e ambiental, como uma aplicação de gamificação para coleta de resíduos (Residuum), um aplicativo de segurança pessoal para mulheres (Rede Rosa) e um sistema de registro de plantio para agricultoras na Amazônia (Semear). Nesses projetos, liderei equipes de front-end e atuei como Product Owner.',
+    'Trabalho de forma colaborativa, organizando as entregas em sprints independentes para que toda a equipe avance sem bloqueios.',
+  ],
+} as const
