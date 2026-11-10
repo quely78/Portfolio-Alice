@@ -3,7 +3,7 @@
 React + Vite + TypeScript + Tailwind (v3).
 
 ## Rodar no VS Code
-
+ 
 ```bash
 npm install
 npm run dev      # http://localhost:5173
