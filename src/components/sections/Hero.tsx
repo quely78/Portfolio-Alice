@@ -1,7 +1,6 @@
 import foto from '@/assets/foto.jpg'
 import { profile } from '@/data/profile'
 import { Button } from '@/components/ui/Button'
-import { Pill } from '@/components/ui/Pill'
 
 export function Hero() {
   return (
